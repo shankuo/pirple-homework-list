@@ -7,9 +7,10 @@ Note: Python's in operator not used
 """
 
 # Global variables
-# Create an empty list
+# Initialize the myUniqueList and myLeftovers or empty []
 myUniqueList = []
 myLeftovers = []
+index = 0
 
 # append ONLY unique value into a list
 # 
@@ -26,11 +27,7 @@ def addToRejectList(value):
     return False
 
 # Main
-# Initialize the myUniqueList and myLeftovers or empty []
-myUniqueList = []
-myLeftovers = []
-index = 0
-# Scenario #1  Unique values
+# Scenario #1 Unique values
 # 1st element
 # index = 0
 value = 2
